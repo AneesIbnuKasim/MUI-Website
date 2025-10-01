@@ -55,7 +55,7 @@ function Navbar() {
 
     
   return (
-        <AppBar position={'fixed'} >
+        <AppBar position={'fixed'}  >
         <Toolbar sx={{display:'flex',justifyContent:'space-between'}} >
             <Stack sx={{display:'flex',flexDirection:'row',alignItems:'center'}}>
             <IconButton size='large' edge='start' color='inherit' >

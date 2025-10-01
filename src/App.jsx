@@ -12,16 +12,16 @@ function App() {
     <>
         <CssBaseline />
         <Navbar/>
-        <Grid container spacing={3} sx={{
-           pt: { xs: 7, sm: 8, lg: 8 } 
+        <Grid container sx={{
+           pt: 6 
            }}>
-          <Grid size={{sm:3.1, lg:2}} >
+          <Grid size={{sm:2,xs:1,lg:1}} >
             <LeftBar/>
           </Grid>
-          <Grid size={{sm:6}} >
+          <Grid size={{sm:10,xs:11,lg:7}} >
             <Feed/>
           </Grid>
-          <Grid size={{sm:3}} >
+          <Grid size={{sm:0,xs:0,lg:4}} >
             <RightBar/>
           </Grid>
         </Grid>

@@ -13,10 +13,9 @@ import LogoutIcon from '@mui/icons-material/Logout';
 
 export const Container = styled('div')(({theme})=>({
     height:'100vh',
-    paddingLeft:theme.spacing(1),
-    paddingRight:theme.spacing(1),
-    paddingTop:theme.spacing(1),
-
+    padding:theme.spacing(4,1,0,1),
+    position:'fixed',
+    top:'auto',
     [theme.breakpoints.up('sm')]:{
         backgroundColor:'white',
         color:'#555',
