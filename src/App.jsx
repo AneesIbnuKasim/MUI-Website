@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
 import LeftBar from './components/LeftBar'
-import { CssBaseline, Grid } from '@mui/material'
+import { CssBaseline, Grid, styled } from '@mui/material'
 import Feed from './components/Feed'
 import RightBar from './components/RightBar'
 

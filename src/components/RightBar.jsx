@@ -1,5 +1,6 @@
 import { Avatar, AvatarGroup, Divider, ImageList, ImageListItem, Link, Stack, styled, Typography } from '@mui/material'
 import React from 'react'
+import Add from './Add'
 
 const StyledImageList = styled(ImageList)(({theme})=>({
     [theme.breakpoints.up('sm')]:{
@@ -65,6 +66,7 @@ function RightBar() {
         <Link>Life</Link>
 
       </Stack>
+      <Add />
     </Stack>
   )
 }
