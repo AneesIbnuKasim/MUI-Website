@@ -15,11 +15,17 @@ export const Container = styled('div')(({theme})=>({
     height:'100vh',
     padding:theme.spacing(4,1,0,1),
     position:'fixed',
-    top:'auto',
     [theme.breakpoints.up('sm')]:{
         backgroundColor:'white',
         color:'#555',
-        border:'1px solid #ece7e7'
+        border:'1px solid #ece7e7',
+        width:160
+    },
+    [theme.breakpoints.up('md')]:{
+        width:200
+    },
+    [theme.breakpoints.up('lg')]:{
+        width:250
     }
 }))
 
