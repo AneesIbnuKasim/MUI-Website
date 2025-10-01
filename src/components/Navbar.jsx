@@ -6,6 +6,7 @@ import { Mail, Notifications} from '@mui/icons-material';
 import CloseIcon from '@mui/icons-material/Close';
 
 
+
 const Search = styled('div',{shouldForwardProp:(prop)=>prop!=='open'})(({theme,open})=>({
     
     backgroundColor: alpha(theme.palette.common.white, 0.15),
@@ -54,8 +55,7 @@ function Navbar() {
 
     
   return (
-    <Box>
-        <AppBar>
+        <AppBar position={'fixed'} >
         <Toolbar sx={{display:'flex',justifyContent:'space-between'}} >
             <Stack sx={{display:'flex',flexDirection:'row',alignItems:'center'}}>
             <IconButton size='large' edge='start' color='inherit' >
@@ -99,7 +99,6 @@ function Navbar() {
             </IconDiv>
         </Toolbar>
     </AppBar>
-    </Box>
   )
 }
 
